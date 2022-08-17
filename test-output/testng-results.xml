@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-15T13:45:53Z" name="Suite" finished-at="2022-08-15T13:46:17Z" duration-ms="23653">
+    <groups>
+    </groups>
+    <test started-at="2022-08-15T13:45:53Z" name="Test" finished-at="2022-08-15T13:46:09Z" duration-ms="15921">
+      <class name="Execution.ExRegister">
+        <test-method is-config="true" signature="getConnexion()[pri:0, instance:Execution.ExRegister@3ee0fea4]" started-at="2022-08-15T14:45:53Z" name="getConnexion" finished-at="2022-08-15T14:46:02Z" duration-ms="8618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getConnexion -->
+        <test-method signature="runRegister()[pri:0, instance:Execution.ExRegister@3ee0fea4]" started-at="2022-08-15T14:46:02Z" name="runRegister" finished-at="2022-08-15T14:46:06Z" duration-ms="3725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runRegister -->
+        <test-method is-config="true" signature="fermer()[pri:0, instance:Execution.ExRegister@3ee0fea4]" started-at="2022-08-15T14:46:06Z" name="fermer" finished-at="2022-08-15T14:46:09Z" duration-ms="3562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fermer -->
+      </class> <!-- Execution.ExRegister -->
+    </test> <!-- Test -->
+    <test started-at="2022-08-15T13:46:09Z" name="Test2" finished-at="2022-08-15T13:46:17Z" duration-ms="7719">
+      <class name="Execution.ExShop">
+        <test-method is-config="true" signature="getConnexion()[pri:0, instance:Execution.ExShop@1198b989]" started-at="2022-08-15T14:46:09Z" name="getConnexion" finished-at="2022-08-15T14:46:16Z" duration-ms="6913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getConnexion -->
+        <test-method signature="run()[pri:0, instance:Execution.ExShop@1198b989]" started-at="2022-08-15T14:46:16Z" name="run" finished-at="2022-08-15T14:46:17Z" duration-ms="798" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to decode response from marionette
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'LMA003531', ip: '10.69.75.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mohamine\AppData\Local\Temp\rust_mozprofile1p4byb, moz:geckodriverVersion=0.31.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, moz:windowless=false, platform=WINDOWS, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=103.0.2, moz:shutdownTimeout=60000, moz:processID=7156, browserName=firefox, moz:buildID=20220808125904, javascriptEnabled=true, moz:platformVersion=10.0, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 59cc5082-4744-45df-95a6-d29d42d4c15b
+*** Element info: {Using=xpath, value=//a[contains(text(),'My Account')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'LMA003531', ip: '10.69.75.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mohamine\AppData\Local\Temp\rust_mozprofile1p4byb, moz:geckodriverVersion=0.31.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, moz:windowless=false, platform=WINDOWS, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=103.0.2, moz:shutdownTimeout=60000, moz:processID=7156, browserName=firefox, moz:buildID=20220808125904, javascriptEnabled=true, moz:platformVersion=10.0, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 59cc5082-4744-45df-95a6-d29d42d4c15b
+*** Element info: {Using=xpath, value=//a[contains(text(),'My Account')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:462)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at Pages.LoginPage.clickMyaccount(LoginPage.java:28)
+	at Execution.ExShop.run(ExShop.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method is-config="true" signature="fermer()[pri:0, instance:Execution.ExShop@1198b989]" started-at="2022-08-15T14:46:17Z" name="fermer" finished-at="2022-08-15T14:46:17Z" duration-ms="0" status="FAIL">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'LMA003531', ip: '10.69.75.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mohamine\AppData\Local\Temp\rust_mozprofile1p4byb, moz:geckodriverVersion=0.31.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, moz:windowless=false, platform=WINDOWS, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=103.0.2, moz:shutdownTimeout=60000, moz:processID=7156, browserName=firefox, moz:buildID=20220808125904, javascriptEnabled=true, moz:platformVersion=10.0, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 59cc5082-4744-45df-95a6-d29d42d4c15b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'LMA003531', ip: '10.69.75.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mohamine\AppData\Local\Temp\rust_mozprofile1p4byb, moz:geckodriverVersion=0.31.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, moz:windowless=false, platform=WINDOWS, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=103.0.2, moz:shutdownTimeout=60000, moz:processID=7156, browserName=firefox, moz:buildID=20220808125904, javascriptEnabled=true, moz:platformVersion=10.0, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 59cc5082-4744-45df-95a6-d29d42d4c15b
+	at ru.yandex.qatools.ashot.util.InnerScript.execute(InnerScript.java:32)
+	at ru.yandex.qatools.ashot.shooting.ViewportPastingDecorator.getFullHeight(ViewportPastingDecorator.java:67)
+	at ru.yandex.qatools.ashot.shooting.ViewportPastingDecorator.getScreenshot(ViewportPastingDecorator.java:41)
+	at ru.yandex.qatools.ashot.shooting.ViewportPastingDecorator.getScreenshot(ViewportPastingDecorator.java:35)
+	at ru.yandex.qatools.ashot.AShot.takeScreenshot(AShot.java:145)
+	at Global.Connexion.screen(Connexion.java:47)
+	at Global.Connexion.fermer(Connexion.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.afterRun(TestRunner.java:1014)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'LMA003531', ip: '10.69.75.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mohamine\AppData\Local\Temp\rust_mozprofile1p4byb, moz:geckodriverVersion=0.31.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, moz:windowless=false, platform=WINDOWS, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=103.0.2, moz:shutdownTimeout=60000, moz:processID=7156, browserName=firefox, moz:buildID=20220808125904, javascriptEnabled=true, moz:platformVersion=10.0, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 59cc5082-4744-45df-95a6-d29d42d4c15b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:522)
+	at ru.yandex.qatools.ashot.util.InnerScript.execute(InnerScript.java:30)
+	... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fermer -->
+      </class> <!-- Execution.ExShop -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

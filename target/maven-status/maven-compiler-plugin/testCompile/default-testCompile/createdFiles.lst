@@ -1,0 +1,9 @@
+My\company\FOne\AppTest.class
+Pages\LoginRegisterSucc.class
+Pages\PagnePage.class
+Execution\ExRegister.class
+Pages\ShopePage.class
+Execution\ExLogin.class
+Execution\ExShop.class
+Pages\LoginPage.class
+Global\Connexion.class

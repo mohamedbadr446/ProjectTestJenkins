@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test2(failed)">
+    <classes>
+      <class name="Execution.ExRegister">
+        <methods>
+          <include name="fermer"/>
+          <include name="getConnexion"/>
+        </methods>
+      </class> <!-- Execution.ExRegister -->
+      <class name="Execution.ExShop">
+        <methods>
+          <include name="run"/>
+          <include name="fermer"/>
+          <include name="getConnexion"/>
+        </methods>
+      </class> <!-- Execution.ExShop -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

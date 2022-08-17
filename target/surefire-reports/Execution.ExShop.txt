@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: Execution.ExShop
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 10.246 s <<< FAILURE! - in Execution.ExShop
+run(Execution.ExShop)  Time elapsed: 2.136 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Failed to decode response from marionette
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'LMA003531', ip: '192.168.181.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mohamine\AppData\Local\Temp\rust_mozprofile1ehL7h, moz:geckodriverVersion=0.31.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, moz:windowless=false, platform=WINDOWS, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=103.0.2, moz:shutdownTimeout=60000, moz:processID=10404, browserName=firefox, moz:buildID=20220808125904, javascriptEnabled=true, moz:platformVersion=10.0, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: b57be44c-e3d9-4bb4-92bb-71eb940b8257
+*** Element info: {Using=xpath, value=//input[@name='username']}
+	at Execution.ExShop.run(ExShop.java:22)
+
+fermer(Execution.ExShop)  Time elapsed: 2.162 s  <<< FAILURE!
+java.lang.RuntimeException: 
+org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'LMA003531', ip: '192.168.181.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mohamine\AppData\Local\Temp\rust_mozprofile1ehL7h, moz:geckodriverVersion=0.31.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, moz:windowless=false, platform=WINDOWS, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=103.0.2, moz:shutdownTimeout=60000, moz:processID=10404, browserName=firefox, moz:buildID=20220808125904, javascriptEnabled=true, moz:platformVersion=10.0, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: b57be44c-e3d9-4bb4-92bb-71eb940b8257
+Caused by: org.openqa.selenium.NoSuchSessionException: 
+Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'LMA003531', ip: '192.168.181.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mohamine\AppData\Local\Temp\rust_mozprofile1ehL7h, moz:geckodriverVersion=0.31.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, moz:windowless=false, platform=WINDOWS, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=103.0.2, moz:shutdownTimeout=60000, moz:processID=10404, browserName=firefox, moz:buildID=20220808125904, javascriptEnabled=true, moz:platformVersion=10.0, platformName=WINDOWS, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: b57be44c-e3d9-4bb4-92bb-71eb940b8257
+
